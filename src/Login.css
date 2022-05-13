@@ -1,0 +1,59 @@
+.container {
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to bottom, #33ccff 13%, #ff99cc 100%);
+    background-repeat: no-repeat;
+    height: 720px;
+    width: 100%;
+}
+form {
+    width: 50%;
+    margin: -50px auto;
+    text-align: center;
+    box-shadow: 1px 1px 10px #333131;
+    padding: 50px 10px;
+    border-radius: 20px;
+}
+.reg-form {
+  width: 50%;
+  margin: 120px auto;
+  text-align: center;
+  box-shadow: 1px 1px 10px #333131;
+  padding: 50px 10px;
+  border-radius: 20px;
+}
+label {
+        font-size: 30px;
+        color: rgb(19, 57, 24);
+}
+input {
+  width: 30%;
+  padding: 12px 20px;
+  margin: 8px auto;
+  display: block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.btn button {
+  border-radius: 10px;
+  background-color: #3a7bdd;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px auto;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+}
+
+.btn button:hover {
+  opacity: 0.8;
+}
+.imgcontainer {
+  text-align: center;
+  /* margin: 10px 0 12px 0; */
+}
+img.avatar {
+  width: 15%;
+  border-radius: 50%;
+}

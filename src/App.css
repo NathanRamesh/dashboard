@@ -1,0 +1,166 @@
+body {
+    background-color: #f1f1f1; 
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+.header {
+    background-color: #000;
+    color: white;
+    text-align: right;
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+    top: 0;
+    display: block;
+}
+.header h1 {
+    padding: 5px;  
+    font-size: 20px; 
+}
+nav {
+  margin-top: 50px;
+  padding: 20px 10px;
+  position: fixed;
+}
+.nav {
+    background-color: #fff;
+}
+nav i {
+  padding: 0 10px;
+}
+.profile {
+    border-radius: 30px;
+    width: 30px;
+}
+.dashboard-menu-list a {
+    display: block;
+    padding: 10px 0;
+    text-decoration: none;
+    color: #000;
+    margin: 0;
+}
+.dashboard-menu-list a:hover {
+    background-color: #f1f1f1;  
+}
+.whole-content {
+    margin-top: 65px;
+}
+.boxed-content {
+    display: flex;
+}
+.boxed-content h3 {
+    text-align: right;
+}
+.box {
+    border: #f1f1f1 solid 5px;
+}
+.boxed-icon {
+    width: 90%;
+    font-size: 40px
+}
+.region-image img {
+    width: 100%;
+    box-sizing: border-box;
+}
+.feed-table {
+    width: 100%;
+    padding: 10px;
+}
+.feed-table td {
+    padding: 10px;
+}
+.feed-table tr:nth-child(odd){
+    background-color: #fff;
+}
+.general-list ul {
+    background-color: rgb(171, 185, 185);
+    padding: 0px;
+}
+.general-list ul li {
+    padding: 10px;
+}
+.twenty-five {
+    width: 25%;
+    text-align: center;
+}
+.fifty {
+    width: 50%;
+    text-align: center;
+}
+.seventy-five {
+    width: 75%;
+    text-align: center;
+}
+.countries table {
+    width: 100%;
+}
+.countries table tr {
+    border: 2px solid  rgb(217, 215, 215);
+}
+.countries table tr td {
+    padding: 10px;   
+}
+.countries table  tr:nth-child(odd){
+    background-color: #fff;
+}
+.countries table tr:hover {
+    background-color: #d1cbcb;
+}
+.more-btn {
+    color: #fff;
+    margin-top: 15px;
+    background-color: #797777;
+    border: none;
+}
+.more-btn:hover {
+    color: #000;
+    background-color: #b4b0b0;
+}
+.recent-user img {
+    width: 35px;
+    border-radius: 50%;
+    margin: 0 20px;
+}
+.recent-user ul {
+    box-shadow: 5px 8px 15px #888888;
+}
+.recent-user ul li {
+    padding: 15px 0;
+    font-size: 20px;
+    border-bottom: 2px solid #c1bcbc;
+}
+.Recent-Comments img {
+    width: 120px;
+    border-radius: 50%;
+}
+.Recent-Comments span {
+    color: #b4b0b0;
+    font-size: 15px;
+}
+.types {
+    background-color: #5f5c5c;
+}
+.types ul li {
+    padding: 10px 0;
+}
+.types h4::after {
+    content: " ";
+    height: 2px;
+    color: #000;
+}
+
+
+/* Media screen */
+
+@media screen and (min-width: 500px) and (max-width: 765px) {
+    nav {
+        display: none;
+    }
+}
+@media screen and (min-width: 767px) and (max-width: 10100px) {
+    .navbar {
+        display: none;
+    }
+}
